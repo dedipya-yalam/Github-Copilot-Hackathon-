@@ -21,9 +21,10 @@ The Weather Forecasting Tool is a simple Python program that retrieves weather i
 4. Enter the name of the city for which you want to retrieve weather information when prompted.
 
 ## Example Output
-```city_name:  Tokyo
+```
+city_name:  Tokyo
 Temperature (in kelvin unit) = 291.49
 atmospheric pressure (in hPa unit) = 1010
 humidity (in percentage) = 75
 description = broken clouds.
-
+```
