@@ -8,7 +8,6 @@ def weather(city):
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
     response = requests.get(complete_url)
     x = response.json() 
-    print(x)
     if x["cod"] != "404":
         y = x["main"]
         current_temperature = y["temp"]
